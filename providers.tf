@@ -2,6 +2,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
+      use_fips_endpoint = true
     }
   }
 }
